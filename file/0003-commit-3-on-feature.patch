@@ -1,0 +1,21 @@
+From 04ebb9c8e4b1680592e2e1caf29258fb30e0fb2a Mon Sep 17 00:00:00 2001
+From: Prashanth <prashanth.kamanoor@external.marelli.com>
+Date: Sun, 8 May 2022 15:50:53 +0530
+Subject: [PATCH 3/3] commit 3 on feature
+
+---
+ file/document | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/file/document b/file/document
+index 537a520..e83aab0 100644
+--- a/file/document
++++ b/file/document
+@@ -2,3 +2,4 @@ my name is prashanth
+ im a softwate engineer
+ i love pandu
+ i love bhagya
++i love preethi
+-- 
+2.34.1.windows.1
+
