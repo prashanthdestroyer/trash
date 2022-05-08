@@ -1,0 +1,258 @@
+From 167517ef2afa9a88aba3db386cd00f0d44cb8feb Mon Sep 17 00:00:00 2001
+From: Prashanth <prashanth.kamanoor@external.marelli.com>
+Date: Sun, 8 May 2022 17:27:13 +0530
+Subject: [PATCH 4/4] pushing patch files
+
+---
+ file/0001-commit-1-on-feature.patch           | 21 ++++++
+ file/0002-commit-2-on-feature.patch           | 21 ++++++
+ file/0003-commit-3-on-feature.patch           | 21 ++++++
+ .../0001-commit-1-on-feature.patch            | 21 ++++++
+ .../0002-commit-2-on-feature.patch            | 21 ++++++
+ .../0003-commit-3-on-feature.patch            | 21 ++++++
+ file/mychanges.patch                          | 65 +++++++++++++++++++
+ 7 files changed, 191 insertions(+)
+ create mode 100644 file/0001-commit-1-on-feature.patch
+ create mode 100644 file/0002-commit-2-on-feature.patch
+ create mode 100644 file/0003-commit-3-on-feature.patch
+ create mode 100644 file/folder-patches/0001-commit-1-on-feature.patch
+ create mode 100644 file/folder-patches/0002-commit-2-on-feature.patch
+ create mode 100644 file/folder-patches/0003-commit-3-on-feature.patch
+ create mode 100644 file/mychanges.patch
+
+diff --git a/file/0001-commit-1-on-feature.patch b/file/0001-commit-1-on-feature.patch
+new file mode 100644
+index 0000000..6367539
+--- /dev/null
++++ b/file/0001-commit-1-on-feature.patch
+@@ -0,0 +1,21 @@
++From 4621355ce277c759c0237a568f742c416a706966 Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:19:20 +0530
++Subject: [PATCH 1/3] commit 1 on feature
++
++---
++ file/document | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/file/document b/file/document
++index 7fc37e9..862b157 100644
++--- a/file/document
+++++ b/file/document
++@@ -1,3 +1,3 @@
++ my name is prashanth
++ im a softwate engineer
++-i love sitara
+++i love pandu
++-- 
++2.34.1.windows.1
++
+diff --git a/file/0002-commit-2-on-feature.patch b/file/0002-commit-2-on-feature.patch
+new file mode 100644
+index 0000000..6ff9694
+--- /dev/null
++++ b/file/0002-commit-2-on-feature.patch
+@@ -0,0 +1,21 @@
++From 71e2c55197ffa63a40b92a966aaff53bc2e04e11 Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:48:12 +0530
++Subject: [PATCH 2/3] commit 2 on feature
++
++---
++ file/document | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/file/document b/file/document
++index 862b157..537a520 100644
++--- a/file/document
+++++ b/file/document
++@@ -1,3 +1,4 @@
++ my name is prashanth
++ im a softwate engineer
++ i love pandu
+++i love bhagya
++-- 
++2.34.1.windows.1
++
+diff --git a/file/0003-commit-3-on-feature.patch b/file/0003-commit-3-on-feature.patch
+new file mode 100644
+index 0000000..f7d0bcc
+--- /dev/null
++++ b/file/0003-commit-3-on-feature.patch
+@@ -0,0 +1,21 @@
++From 04ebb9c8e4b1680592e2e1caf29258fb30e0fb2a Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:50:53 +0530
++Subject: [PATCH 3/3] commit 3 on feature
++
++---
++ file/document | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/file/document b/file/document
++index 537a520..e83aab0 100644
++--- a/file/document
+++++ b/file/document
++@@ -2,3 +2,4 @@ my name is prashanth
++ im a softwate engineer
++ i love pandu
++ i love bhagya
+++i love preethi
++-- 
++2.34.1.windows.1
++
+diff --git a/file/folder-patches/0001-commit-1-on-feature.patch b/file/folder-patches/0001-commit-1-on-feature.patch
+new file mode 100644
+index 0000000..6367539
+--- /dev/null
++++ b/file/folder-patches/0001-commit-1-on-feature.patch
+@@ -0,0 +1,21 @@
++From 4621355ce277c759c0237a568f742c416a706966 Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:19:20 +0530
++Subject: [PATCH 1/3] commit 1 on feature
++
++---
++ file/document | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/file/document b/file/document
++index 7fc37e9..862b157 100644
++--- a/file/document
+++++ b/file/document
++@@ -1,3 +1,3 @@
++ my name is prashanth
++ im a softwate engineer
++-i love sitara
+++i love pandu
++-- 
++2.34.1.windows.1
++
+diff --git a/file/folder-patches/0002-commit-2-on-feature.patch b/file/folder-patches/0002-commit-2-on-feature.patch
+new file mode 100644
+index 0000000..6ff9694
+--- /dev/null
++++ b/file/folder-patches/0002-commit-2-on-feature.patch
+@@ -0,0 +1,21 @@
++From 71e2c55197ffa63a40b92a966aaff53bc2e04e11 Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:48:12 +0530
++Subject: [PATCH 2/3] commit 2 on feature
++
++---
++ file/document | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/file/document b/file/document
++index 862b157..537a520 100644
++--- a/file/document
+++++ b/file/document
++@@ -1,3 +1,4 @@
++ my name is prashanth
++ im a softwate engineer
++ i love pandu
+++i love bhagya
++-- 
++2.34.1.windows.1
++
+diff --git a/file/folder-patches/0003-commit-3-on-feature.patch b/file/folder-patches/0003-commit-3-on-feature.patch
+new file mode 100644
+index 0000000..f7d0bcc
+--- /dev/null
++++ b/file/folder-patches/0003-commit-3-on-feature.patch
+@@ -0,0 +1,21 @@
++From 04ebb9c8e4b1680592e2e1caf29258fb30e0fb2a Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:50:53 +0530
++Subject: [PATCH 3/3] commit 3 on feature
++
++---
++ file/document | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/file/document b/file/document
++index 537a520..e83aab0 100644
++--- a/file/document
+++++ b/file/document
++@@ -2,3 +2,4 @@ my name is prashanth
++ im a softwate engineer
++ i love pandu
++ i love bhagya
+++i love preethi
++-- 
++2.34.1.windows.1
++
+diff --git a/file/mychanges.patch b/file/mychanges.patch
+new file mode 100644
+index 0000000..7531fd7
+--- /dev/null
++++ b/file/mychanges.patch
+@@ -0,0 +1,65 @@
++From 4621355ce277c759c0237a568f742c416a706966 Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:19:20 +0530
++Subject: [PATCH 1/3] commit 1 on feature
++
++---
++ file/document | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/file/document b/file/document
++index 7fc37e9..862b157 100644
++--- a/file/document
+++++ b/file/document
++@@ -1,3 +1,3 @@
++ my name is prashanth
++ im a softwate engineer
++-i love sitara
+++i love pandu
++-- 
++2.34.1.windows.1
++
++
++From 71e2c55197ffa63a40b92a966aaff53bc2e04e11 Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:48:12 +0530
++Subject: [PATCH 2/3] commit 2 on feature
++
++---
++ file/document | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/file/document b/file/document
++index 862b157..537a520 100644
++--- a/file/document
+++++ b/file/document
++@@ -1,3 +1,4 @@
++ my name is prashanth
++ im a softwate engineer
++ i love pandu
+++i love bhagya
++-- 
++2.34.1.windows.1
++
++
++From 04ebb9c8e4b1680592e2e1caf29258fb30e0fb2a Mon Sep 17 00:00:00 2001
++From: Prashanth <prashanth.kamanoor@external.marelli.com>
++Date: Sun, 8 May 2022 15:50:53 +0530
++Subject: [PATCH 3/3] commit 3 on feature
++
++---
++ file/document | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/file/document b/file/document
++index 537a520..e83aab0 100644
++--- a/file/document
+++++ b/file/document
++@@ -2,3 +2,4 @@ my name is prashanth
++ im a softwate engineer
++ i love pandu
++ i love bhagya
+++i love preethi
++-- 
++2.34.1.windows.1
++
+-- 
+2.34.1.windows.1
+
